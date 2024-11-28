@@ -1,0 +1,9 @@
+.routingContent{
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+
+}
+*{
+    box-sizing: border-box;
+}
