@@ -6,7 +6,6 @@
 }
 
 .startTroubleShoot{
-    background-color: cornflowerblue;
     border: none;
     outline: none;
     position: absolute;
@@ -38,6 +37,8 @@
     top: 30%;
     box-shadow: 0px 0px 0px 1px rgb(212, 212, 212);
     border-radius: 3px;
+    color: black;
+    padding: 20px;
 }
 
 
@@ -115,6 +116,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    overflow-y: scroll;
 }
 
 .currentSystemStatecontent{
@@ -129,7 +131,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    overflow-x: scroll;
+    flex-wrap: wrap;
     gap: 10px;
     padding: 0px 5px 0px 5px;
 }
@@ -139,7 +141,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    overflow-x: scroll;
+    flex-wrap: wrap;
     gap: 10px;
     padding: 0px 5px 0px 5px;
 }
@@ -209,4 +211,12 @@
     border-radius: 5px;
     padding: 10px;
     gap: 10px;
+}
+
+.introCurrentstate{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
+    color: black;
 }

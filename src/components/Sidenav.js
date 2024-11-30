@@ -20,7 +20,7 @@ export default function Sidenav(){
         <div className="side_content" id="side_content">
             <div className="navigation-div" id="navigation_div">
                 <div className="navigator ubuntri_ai_asistant navactive" id="ubuntri_ai_asistant" >
-                    <Link to="/" onClick={()=>changeLocation("ubuntri_ai_asistant")}>
+                    <Link to="/" onClick={()=>changeLocation("ubuntri_ai_asistant")} className="text-decoration-none">
                         <div className="iconwrapper">
                             <img src={logo} id="assistanticon" className="clickicon"  alt="logoicon"/>
                             <p>Ubuntri Asistant</p>
@@ -28,7 +28,7 @@ export default function Sidenav(){
                     </Link>
                 </div>
                 <div className="navigator installation" id="installationnav">
-                    <Link to="/installation" onClick={()=>changeLocation("installationnav")}>
+                    <Link to="/installation" onClick={()=>changeLocation("installationnav")} className="text-decoration-none">
                         <div className="iconwrapper">
                             <img src={instllation} id="installationicon" className="clickicon" alt="instllation" />
                             <p>Installation Guide</p>
@@ -36,7 +36,7 @@ export default function Sidenav(){
                     </Link>
                 </div>
                 <div className="navigator troubleshoot" id="troubleshootnav">
-                    <Link to="/troubleshoot" onClick={()=>changeLocation("troubleshootnav")}>
+                    <Link to="/troubleshoot" onClick={()=>changeLocation("troubleshootnav")} className="text-decoration-none">
                         <div className="iconwrapper">
                             <img src={troubleshoot} id="troubleshooticon" className="clickicon" alt="troubleshoot" />
                             <p>Troubleshoot</p>

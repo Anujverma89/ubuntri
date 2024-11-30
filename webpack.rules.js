@@ -33,6 +33,7 @@ module.exports = [
         filename: 'images/[name][hash][ext]', // Output folder and naming
     },
   },
+
   // Put your webpack loader rules in this array.  This is where you would put
   // your ts-loader configuration for instance:
   /**

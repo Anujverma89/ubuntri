@@ -27,5 +27,11 @@
  */
 
 import './index.jsx';
+// Import Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// Import Bootstrap JavaScript (optional, for interactive components like modals, tooltips, etc.)
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 console.log('👋 This message is being logged by "renderer.js", included via webpack');

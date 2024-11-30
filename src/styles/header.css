@@ -7,6 +7,7 @@
     align-items: center;
     align-items: center;
     color: white;
+    overflow: hidden;
 }
 
 /* header */
@@ -72,9 +73,7 @@
 }
 
 .notificationInactive{
-    position: absolute;
-    right: -400px;
-    transition: .5s ease-in;
+    display: none;
 }
 
 .notification{
@@ -125,12 +124,28 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    gap: 10px;
     flex-direction: column;
 }
 
+
+.username, .password {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
 .loginContainernew{
-    position: absolute;
-    right: -350px;
-    transition: .5s ease-in;
+    display: none;
 }
